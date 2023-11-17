@@ -39,11 +39,19 @@ scrapy genspider dongchedi www.dongchedi.com
 找到 `dongchedi.py` 文件，在 `dongchedi_scraper/spiders` 目录下编辑。这包括定义爬虫的名称、允许的域名、起始URL等。
 
 ---
-* ## 爬取的目标图
+* #### 爬取的目标图
 ![IMG_1434](https://github.com/CHNragdoll/dongchedispider-scrapy/assets/114509813/375b800f-9928-43db-8e5d-c99be191f4f4)
 
-* ## 表单数据图
+* #### 表单数据图
 ![IMG_1435](https://github.com/CHNragdoll/dongchedispider-scrapy/assets/114509813/aa254f1c-0585-4f5e-a65f-fe4904a7ea8c)
+
+* #### 翻页参数图
+![IMG_1441](https://github.com/CHNragdoll/dongchedispider-scrapy/assets/114509813/f1340c74-2992-49bd-ae7d-91d261dfb40a)
+
+* #### 请求标头图
+![IMG_1443](https://github.com/CHNragdoll/dongchedispider-scrapy/assets/114509813/a8cd0cfe-9f29-4d29-b28f-ea3a98ec5cd9)
+
+无加密数据不需要cookie。
 
 ---
 ### 4. 定义 Item
