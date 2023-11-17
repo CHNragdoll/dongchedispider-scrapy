@@ -36,7 +36,8 @@ scrapy genspider dongchedi www.dongchedi.com
 ### 3. 编写爬虫代码：
 
 找到 `dongchedi.py` 文件，在 `dongchedi_scraper/spiders` 目录下编辑。这包括定义爬虫的名称、允许的域名、起始URL等。
-*目标图
+
+* 爬取的目标图
 ![IMG_1434](https://github.com/CHNragdoll/dongchedispider-scrapy/assets/114509813/375b800f-9928-43db-8e5d-c99be191f4f4)
 
 
