@@ -1,5 +1,5 @@
-### 目标：
-爬取懂车帝目标地区的所有汽油车的 '品牌ID', '品牌名称', '封面图URL', '车型名称', '官方指导价', '款式数量', '评分'并把输出的数据加上序号
+# 目标：
+爬取懂车帝目标地区的所有汽油车的 '品牌ID', '品牌名称', '封面图URL', '车型名称', '官方指导价', '款式数量', '评分'并把输出的数据加上序号。
 
 ### 1. 安装Scrapy框架：
 
@@ -32,15 +32,20 @@ scrapy startproject dongchedi_scraper
 cd dongchedi_scraper
 scrapy genspider dongchedi www.dongchedi.com
 ```
+![IMG_1437](https://github.com/CHNragdoll/dongchedispider-scrapy/assets/114509813/2ccdcfed-d58a-435d-8372-9197b610fba6)
 
 ### 3. 编写爬虫代码：
 
 找到 `dongchedi.py` 文件，在 `dongchedi_scraper/spiders` 目录下编辑。这包括定义爬虫的名称、允许的域名、起始URL等。
 
-* 爬取的目标图
+---
+* ## 爬取的目标图
 ![IMG_1434](https://github.com/CHNragdoll/dongchedispider-scrapy/assets/114509813/375b800f-9928-43db-8e5d-c99be191f4f4)
 
+* ## 表单数据图
+![IMG_1435](https://github.com/CHNragdoll/dongchedispider-scrapy/assets/114509813/aa254f1c-0585-4f5e-a65f-fe4904a7ea8c)
 
+---
 ### 4. 定义 Item
 
 在 `items.py` 文件中定义您的 Item 类。这是用于存储爬取数据的结构。
@@ -60,4 +65,5 @@ scrapy genspider dongchedi www.dongchedi.com
 ```bash
 scrapy crawl dongchedi
 ```
+![IMG_1436](https://github.com/CHNragdoll/dongchedispider-scrapy/assets/114509813/3219d852-2742-48f2-8567-d9847c0cc62c)
 
